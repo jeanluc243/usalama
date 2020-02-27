@@ -23,6 +23,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  responsive_grid: ^1.1.1
 
   # animated_splash: ^1.0.0
 
@@ -48,6 +49,11 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - assets/img/splash.png
+    - assets/img/alarm.png
+    - assets/img/healthcare-and-medical.png
+    - assets/img/police.png
+    - assets/img/sports-and-competition.png
+    - assets/img/congo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

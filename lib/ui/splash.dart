@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:usalama/ui/home.dart';
 
 import 'package:usalama/ui/layouts/animated_splash.dart';
 
@@ -7,8 +8,9 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplash(
         imagePath: 'assets/img/splash.png', 
-        duration: 5500, 
-        home: Scaffold()
+        duration: 10000, 
+        // outputAndHome: op,
+        home: HomePage()
     );
   }
 }

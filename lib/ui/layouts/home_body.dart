@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
+import 'package:usalama/router.dart';
 
 ResponsiveGridRow responsiveGridRow = new ResponsiveGridRow(children: [
   ResponsiveGridCol(
@@ -29,7 +30,10 @@ ResponsiveGridRow responsiveGridRow = new ResponsiveGridRow(children: [
   ResponsiveGridCol(
     xs: 6,
     child: FlatButton(
-      onPressed: () {},
+      onPressed: () {
+        // Navigator.pushNamed(BuildContext context, "call");
+        print("object -> ${ScaffoldState().context}");
+      },
       child: Card(
           margin: EdgeInsets.only(left: 1, right: 1),
           elevation: 4.0,

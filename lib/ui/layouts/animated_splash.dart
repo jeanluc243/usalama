@@ -2,6 +2,7 @@ library animated_splash;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:page_transition/page_transition.dart';
 
 Widget _home;
 Function _customFunction;
@@ -76,8 +77,14 @@ class _AnimatedSplashState extends State<AnimatedSplash>
             });
           })
         : Future.delayed(Duration(milliseconds: _duration)).then((value) {
-            Navigator.of(context).pushReplacement(
-                CupertinoPageRoute(builder: (BuildContext context) => _home));
+            Navigator.pushReplacement(context, PageTransition(
+              child: _home, 
+              type: PageTransitionType.rightToLeft
+              )
+            );
+            // Navigator.of(context).pushReplacement(
+            //     // CupertinoPageRoute(builder: (BuildContext context) => _home),);
+            //     MaterialPageRoute(builder: (BuildContext context) => _home),);
           });
 
     return Scaffold(

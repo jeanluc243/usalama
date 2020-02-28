@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:usalama/router.dart';
 import 'package:usalama/ui/splash.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashPage()
+      home: SplashPage(),
+      initialRoute: "call",
+      onGenerateRoute: AppRouter.router.generator,
     );
   }
 }

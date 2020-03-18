@@ -8,7 +8,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplash(
         imagePath: 'assets/img/splash.png', 
-        duration: 10000, 
+        duration: 5000, 
         // outputAndHome: op,
         home: HomePage()
     );

@@ -5,6 +5,7 @@ import 'package:usalama/ui/layouts/app_bar.dart';
 import 'package:usalama/ui/layouts/drawer.dart';
 import 'package:usalama/ui/layouts/home_body.dart';
 import 'package:usalama/ui/pages/call_an_urgence.dart';
+import 'package:usalama/ui/pages/submit_list_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -77,7 +78,11 @@ class HomePage extends StatelessWidget {
               ResponsiveGridCol(
                 xs: 6,
                 child: FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, 
+                      PageTransition(child: SubmitListPage(), type: PageTransitionType.rightToLeft)
+                    );
+                  },
                   child: Card(
                       margin: EdgeInsets.only(left: 1, right: 1),
                       elevation: 4.0,

@@ -53,6 +53,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Drug Related"),
             onTap: () {
@@ -65,6 +66,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Education Institutions"),
             onTap: () {
@@ -77,6 +79,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Fraud"),
             onTap: () {
@@ -89,6 +92,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Human Trafficking"),
             onTap: () {
@@ -101,6 +105,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Murder"),
             onTap: () {
@@ -113,6 +118,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Possession of Unlicensed Firearm"),
             onTap: () {
@@ -125,6 +131,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Sexual Assault / Abuse"),
             onTap: () {
@@ -137,6 +144,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Theft"),
             onTap: () {
@@ -149,6 +157,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Wanted / Fugitive"),
             onTap: () {
@@ -161,6 +170,7 @@ class _SubmitListPageState extends State<SubmitListPage> {
                       type: PageTransitionType.rightToLeft));
             },
           ),
+          Divider(),
           ListTile(
             title: Text("Other"),
           ),

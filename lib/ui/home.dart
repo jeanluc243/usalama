@@ -7,6 +7,12 @@ import 'package:usalama/ui/layouts/home_body.dart';
 import 'package:usalama/ui/pages/call_an_urgence.dart';
 import 'package:usalama/ui/pages/submit_list_page.dart';
 
+
+// TODO :
+// Add infinite Alert (i forgot name of this widget)
+// for long time : 10 min maybe
+
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -27,6 +33,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
+              
               ResponsiveGridCol(
                 xs: 12,
                 child: Container(
@@ -184,7 +191,7 @@ class HomePage extends StatelessWidget {
                       ResponsiveGridCol(
                         xs: 9,
                         child: Text(
-                          "Usalama will also give Congoleses easier access to police services and information. He adds the end goal is to create a safer society for everyone.",
+                          "Usalama will also give Congoleses easier access to police services and information. The end goal is to create a safer society for everyone.",
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 14,

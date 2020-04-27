@@ -26,6 +26,10 @@ dependencies:
   responsive_grid: ^1.1.1
   fluro: ^1.5.2
   page_transition: ^1.1.5
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  bloc_test: ^5.0.0
+
 
   # animated_splash: ^1.0.0
 

@@ -6,7 +6,7 @@ AppBar appBar = AppBar(
   ),
   backgroundColor: Colors.white,
   title: Text(
-    "Usalama | DSC Esisalama",
+    "Usalama",
     style: TextStyle(
       color: Color(0xFF2057A4),
     ),

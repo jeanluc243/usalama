@@ -4,7 +4,7 @@ import 'package:bloc/bloc.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:usalama/app.dart';
-import 'package:usalama/bloc/bloc/settings_bloc.dart';
+import 'package:usalama/bloc/settings/settings_bloc.dart';
 import 'package:usalama/bloc/simple_bloc_delegate.dart';
 import 'package:usalama/repositories/app_repository.dart';
 

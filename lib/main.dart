@@ -12,9 +12,5 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   BlocSupervisor.delegate = SimpleBlocDelegate();
   final AppRepository appRepository = AppRepository();
-  runApp(MultiBlocProvider(providers: [
-    BlocProvider(create: (context) {
-      SettingsBloc();
-    }),
-  ], child: UsalamaApp()));
+  runApp(const UsalamaApp());
 }

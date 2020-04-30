@@ -1,16 +1,28 @@
 # usalama
 
-A new Flutter project.
+Usalama give Congoleses - Lubumbashi particulary - easier access to police services and information. The end goal is to create a safer society for everyone.
 
-## Getting Started
+## Running Usalama on Flutter's master channel
 
-This project is a starting point for a Flutter application.
+If you'd like to run the Usalama, make sure to switch to the master channel
+first:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter channel master
+flutter upgrade
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- run the project 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd usalama/
+flutter run
+```
+
+## Supported Platforms
+
+Usalama has been built to support mutilple plateforms.
+This inclues : 
+
+- Android
+- iOS

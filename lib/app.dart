@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:usalama/router.dart';
 import 'package:usalama/ui/splash.dart';
 
-class MyApp extends StatelessWidget {
+class UsalamaApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
